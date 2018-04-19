@@ -13,6 +13,7 @@ body {
     width: 100%;
    
   }
+
   .header a.logo{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,7 +24,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     background-color: white;
-    margin:20px;
+    margin: 0;
     bottom:0;
     color:red;
 
@@ -63,14 +64,15 @@ img{
   }
   .section2{
     width:960px;
-    line-height: 25px;
-    text-align: center;
+    
     margin:0 auto;
     background-color: teal;
-    text-align: left;
+    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-
+.grid{
+  background: teal;
+}
 
 .contact{
   width:960px;
@@ -80,30 +82,33 @@ img{
 
 form{
   margin:20px auto;
-  width:320px;
+  width:400px;
   border:3px solid grey;
+  padding:12px;
  
 }
 input{
   padding:10px;
+  margin: 20px auto;
   font-size:inherit;
 }
 input[type="text"]{
   margin-bottom:25px;
   width:50%;
-  border:2px solid blak;
+  border:2px solid black;
+
 
 }
 input[type="email"]{
   margin-bottom:25px;
   width:50%;
-  border:2px solid blak;
+  border:2px solid black;
 
 }
 input[type="submit"]{
   margin-bottom:25px;
   width:50%;
-  border:2px solid blak;
+  border:2px solid black;
 
 }
 .footer {
