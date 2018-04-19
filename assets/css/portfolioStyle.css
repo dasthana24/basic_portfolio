@@ -1,0 +1,116 @@
+body { 
+
+   background-color:wheat;
+ 
+  }
+  
+  .header {
+  
+    background-image: url("../image/backgroundpic.jpg");
+    
+    padding: 20px 0px;
+    border: 1px black solid;
+    width: 100%;
+   
+  }
+  .header a.logo{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: bold;
+    border: 2px white solid;
+    line-height: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: white;
+    margin:20px;
+    bottom:0;
+
+  }
+  
+  .clearfix::after {	
+      content: "";	
+      display: block;	
+      clear: both;	
+  }
+          
+  .header a {
+    float: left;
+    text-align: center;
+     padding: 12px;
+    
+  
+  }
+  .menu{
+  float:right;
+
+  }
+ 
+img{
+    float:left;
+    padding :12px;
+  }
+
+  .section1{
+    width:960px;
+    line-height: 25px;
+    text-align: center;
+    margin:0 auto;
+    background-color: teal;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .section2{
+    width:960px;
+    line-height: 25px;
+    text-align: center;
+    margin:0 auto;
+    background-color: teal;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+.contact{
+  width:960px;
+  margin:0 auto;
+  padding:20px 10px;
+}
+
+form{
+  margin:20px auto;
+  width:320px;
+  border:3px solid grey;
+ 
+}
+input{
+  padding:10px;
+  font-size:inherit;
+}
+input[type="text"]{
+  margin-bottom:25px;
+  width:50%;
+  border:2px solid blak;
+
+}
+input[type="email"]{
+  margin-bottom:25px;
+  width:50%;
+  border:2px solid blak;
+
+}
+input[type="submit"]{
+  margin-bottom:25px;
+  width:50%;
+  border:2px solid blak;
+
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
