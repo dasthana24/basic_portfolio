@@ -1,0 +1,148 @@
+body { 
+
+   background-image: url("../image/teal-lines-background-texture.jpg")
+ 
+  }
+  
+  .header {
+  
+    background-image: url("../image/dfgdf.jpg");
+    
+    padding: 20px 0px 0;
+    border: 5px teal solid;
+    width: 100%;
+
+   
+  }
+  .header h1{
+    float: left;
+    margin-bottom: 0;
+    margin-left: 60px;
+  }
+
+  .header a.logo{
+    
+    font-family: 'Fugaz One', cursive;
+    font-size: 36px;
+    font-weight: bolder;
+    border: 2px teal solid;
+    line-height: 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: white;
+    margin: 0;
+    bottom:0;
+    color:teal;
+
+  }
+  
+  .clearfix::after {	
+      content: "";	
+      display: block;	
+      clear: both;	
+  }
+          
+  .header a {
+
+    text-align: center;
+     padding: 12px;
+     display:inline-block;
+     color:teal;
+     font-size: 22px;
+     font-family: monospace;
+    
+  
+  }
+
+  a:hover{
+    background-color:white;
+    font-size: 36px;
+  }
+  .menu{
+  float:right;
+
+  }
+  h2 {
+    border-bottom: 2px teal solid;
+    color:teal;
+    margin-left: 20px;
+  }
+img{
+    float:left;
+    padding :12px;
+  }
+p{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding : 4px;
+}
+  .section1{
+    width:960px;
+    line-height: 25px;
+    text-align: center;
+    margin:0 auto;
+    background-image: url("../image/Catalina_Scales_Wallpaper_in_White_Pearl_and_Aqua_from_the_Tortuga_Collection_by_Seabrook_Wallcoverings_ac23247d-70ff-49c3-9919-2077a98bdfbe_large.jpg");
+    text-align: left;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .section2{
+    width:960px;
+    
+    margin:0 auto;
+    background-image: url("../image/Catalina_Scales_Wallpaper_in_White_Pearl_and_Aqua_from_the_Tortuga_Collection_by_Seabrook_Wallcoverings_ac23247d-70ff-49c3-9919-2077a98bdfbe_large.jpg");
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+.contact{
+  width:960px;
+  margin:0 auto;
+  padding:20px 10px;
+}
+
+form{
+  margin:20px auto;
+  width:400px;
+  border:5px teal solid;
+  padding:12px;
+ 
+}
+input{
+  padding:10px;
+  margin: 20px auto;
+  font-size:inherit;
+  border:5px teal solid;
+}
+input[type="text"]{
+  margin-bottom:25px;
+  width:50%;
+  border:5px teal solid;
+
+}
+input[type="email"]{
+  margin-bottom:25px;
+  width:50%;
+  border:5px teal solid;
+
+}
+input[type="submit"]{
+  margin-bottom:25px;
+  width:50%;
+  border:5px teal solid;
+  font-size: 50%
+  
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("../image/dfgdf.jpg");
+  color:white;;
+  text-align: center;
+  border-top: 5px solid teal;
+  font-size: 28px;
+  font-family: monospace;
+}
